@@ -13,6 +13,15 @@ To start using this project use the following commands:
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
+#BDD
+# Behaviour
+* a web application that uses the same idea as a calculator, where it takes your birthday and calculates the day of the week you were born and depending on their gender to reveal an akan name.
+# input example
+* day and year of birth
+* centuary
+# output example
+* A pop up message on your akan name
+
 # Contact information
 -`https://github.com/Brayooh`
 -`0701259902`
@@ -22,6 +31,7 @@ To start using this project use the following commands:
 -`html`
 -`css`
 -`java script`
+-`Jquery`
 
 # License info
 MIT License
