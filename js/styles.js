@@ -10,7 +10,7 @@ function validateform() {
                 return gender.value;
             }
         }
-    }
+    };
     var genderValue = genderselected();
     function dayValid() {
         if (day < 1 || day > 31) {
