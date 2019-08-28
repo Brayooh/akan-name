@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Naming system</title>
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  
-  
-
-</head>
+  <head>
+    <meta charset="utf-19">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" text="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Akan Name Generator</title>
+  </head>
 <body>
  
-  <div class="header">
-   
-    <h1>AKAN(<em>NAME</em>)GENERATOR</h1>
+    <h1>AKAN <em>NAME</em> GENERATOR</h1>
    
     <div class="container">
       <div class="panel">
@@ -37,6 +35,26 @@
             </div>
           </div>
         </div>
+      <div class=" col-sm-5">
+        <h2>Input your details here</h2>
+          <form name="my-day" onsubmit="return validateform()">
+            <p><em>Day</em></p>
+              <input type="text" id="day" name="DD" value="">  <br> <br>
+            <p><em>Month</em></p>
+              <input type="text" id="month" name="MM" value="">  <br> <br>
+            <p><em>Centuary</em></p>
+              <input type="text" id="centuary" name="cC" value="">   <br> <br>
+            <p><em>Year</em></p>
+              <input type="text" id="year" name="YY" value="">   <br> <br>
+      
+      
+      
+            <input type="radio" name="gender" value="male"> Male <br> <br> <br>
+            <input type="radio" name="gender" value="female">Female <br> <br> <br>
+      
+          <input type="submit" name="submit" value="submit">
+      </form>
+      </div>
       
     
     
